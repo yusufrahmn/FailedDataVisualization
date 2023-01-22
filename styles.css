@@ -1,4 +1,29 @@
+body {
+    background-image: url("https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=2520&h=1500&dpr=1");
+    background-position: center center;
+    padding: 0px 30px 30px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#box {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+    padding: 30px;
+    color: white;
+    background-color: rgba(47, 79, 79, 0.87);
+}
+
 .svg {
     display: block;
-    margin: 0, auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.chart, img, footer > p {
+    margin: auto;
 }

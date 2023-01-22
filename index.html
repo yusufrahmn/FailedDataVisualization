@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Visualization</title>
-    <link rel="styles.css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="data/AequitasData.js"></script>
     <script src="data/AlphaData.js"></script>
@@ -14,28 +14,33 @@
     
 </head>
 <body>
-    <header>
-        <hgroup>
-            <h1>DATA VISUALIZATION</h1>
-            <h2>Description goes here. Lorem ipsum dolor sit amet.a</h2>
-        </hgroup>
-    </header>
-    <main>
-        <section id="messagesByExchange">
-            <h2>Messages by Exchange</h2>
-
-        </section>
-    </main>
-
-
-    <div margin="0">
-        <script src="BarChart.js"></script>
+    <div id="box">
+        <header>
+            <hgroup>
+                <h1>DATA VISUALIZATION</h1>
+                <h3>This is a failed attempt at creating a visualization of the stock trading data provided by National Bank.</h3>
+            </hgroup>
+        </header>
+        <main>
+            <section id="messagesByExchange">
+                <h2>Messages by Exchange</h2>
+            </section>
+    
+            <div class="chart">
+                <script src="BarChart.js"></script>
+            </div>
+    
+            <section>
+                <p>Although we struggled and ultimately weren't able to complete the project, we're grateful for the opportunity to learn D3.JS and see its potential for future use, if we're able to understand it better.</p>
+    
+                <p>We tried, and we failed, but we had a ton of fun.</p>
+    
+                <img src="meme1.jpg">
+            </section>
+        </main>
+        <footer>
+            <p>Made with ☠️ by Richard Zhu, Brasen Xu, and Yusuf Rahman @ ConUHacks VII</p>
+        </footer>
     </div>
-   
-
-
-    <footer>
-        <p>Made with ☠️ by Richard Zhu, Brasen Xu, and Yusuf Rahman @ ConUHacks VII</p>
-    </footer>
 </body>
 </html>
